@@ -4,13 +4,17 @@
     <title>{{meta_title}}</title>
     {{> meta}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/uno-zen.css"}}" />
+
     {{ghost_head}}
   </head>
+
   <body class="{{body_class}}">
     <header id="menu-button" class="expanded">
       <a><i class="icon icon-list"></i></a>
     </header>
+
     {{> aside}}
+
     <main>
       <section id="search-results"></section>
       <section class="content">
@@ -18,8 +22,8 @@
         {{> footer}}
       </section>
     </main>
-    {{ghost_foot}}
+
     <script src="{{asset "js/uno-zen.js"}}" type="text/javascript" charset="utf-8"></script>
-    {{> google-analytics}}
+    {{ghost_foot}}
   </body>
 </html>
